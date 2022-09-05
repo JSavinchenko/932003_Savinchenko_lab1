@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+body {
+    background-color: white;
+}
+   
+div#content {
+    background-color: blue;
+    color: white;
+    font-family: "Lucida Sans Unicode";
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0 25px;
+    height: 100vh;
+}
+
+header {
+    background-color: green;
+    color: white;
+    font-family: "Courier New";
+    font-size: 1em;
+    display: block; 
+    text-align: center;
+    width: 100%;
+    padding: 10px 0; 
+}
+
+h1#head {
+    font-size: 2em;
+    padding-top: 5px;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border: 5px white solid;
+    border-radius: 15px 0px 15px 0px;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px; 
+    float: left;
+}
+
+.square_and_text {
+    float: left;
+}
+
+div#link {
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    word-spacing: 8px;
+    display: inline;
+} 
+
+h2:first-child {
+    color: red;
+}
+
+h2:last-child {
+    color: white;
+}
+
+ul {
+    margin-left: 8%;
+}
+
+li#second_item {
+    letter-spacing: 4px;
+    color:aqua;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+p#underline {
+    text-decoration: underline;
+}
+
+table {
+    width: 130px;
+    height: 100px;
+    border: 2px solid white;
+    float: right;
+    margin-top: -25%;
+    text-align: center;
+   
+}
+
+td#red_cell {
+    background-color: red;
+}
+
+td#green_cell {
+    background-color: green;
+}
+
+td {
+    border: 1px solid white;
+    vertical-align: bottom;
+} 
+
+img {
+    float: right;
+}
+
+footer {
+    background-color: green;
+    color:white;
+    font-family: sans-serif, "Arial"; 
+    font-size: 1em;
+    display: block; 
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute; 
+}
+    
